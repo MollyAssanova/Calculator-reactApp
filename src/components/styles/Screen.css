@@ -1,0 +1,26 @@
+.screen{
+    text-align: center;
+}
+.screenInput{
+    font-size: 35px;
+    padding: 10px;
+    width: 72%;
+    text-align: right;
+    font-family: Digital-7;
+    border: 2px solid black;
+    outline-color: black;
+    border-radius: 5px;
+}
+.lightInput{
+    color: black;
+    background-color: #204060;
+}
+.darkInput{
+    background-color: var(--lightBlack);
+    color: white;
+}
+@media screen and (max-width: 425px){
+    .screenInput{
+        font-size: 35px;
+    }
+}
